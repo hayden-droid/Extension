@@ -6,8 +6,8 @@ const inject = async (branch, version) => {
   window.gmExtension = version;
 
   const branchURLs = {
-    release: 'https://api.goosemod.com/inject.js',
-    dev: 'https://raw.githubusercontent.com/GooseMod/GooseMod/dist-dev/index.js',
+    release: 'https://gist.githubusercontent.com/hayden-droid/e37307ff1e5badcd172071488682b212/raw/d76fb9ca44a11529ce1a405894c8a872b28f21ae/inject.js',
+    dev: 'https://gist.githubusercontent.com/hayden-droid/6a3d90c153cd0d7830c6e8e473fd4fdd/raw/551f9ccec6792e8a57258e31f191741de66cddfa/index.js',
     local: 'http://localhost:1234/index.js'
   };
 
